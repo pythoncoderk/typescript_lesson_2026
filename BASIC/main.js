@@ -1,7 +1,9 @@
-function add(num1, num2) {
-    console.log(num1 + num2);
+let ok = true;
+let maybeOK = true;
+if (ok){
+    console.log('Hello World!');
+} else if (maybeOK){
+    console.log('maybe ok ....');
+} else {
+    console.log('NO');
 }
-
-
-
-add(5, 5)
